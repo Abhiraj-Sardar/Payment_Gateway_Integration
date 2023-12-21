@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url("img/Banking1.jpg");
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    /* border:2px solid red; */
+    text-align: center;
+}
+.container button{
+    margin-top: 40vh;
+    height:100px;
+    width:20%;
+    border:2px solid #fff;
+}
+
+.container button:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid red;
+}

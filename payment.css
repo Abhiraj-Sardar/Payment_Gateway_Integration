@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url("img/piggybank.jpg");
+    background-size: cover;
+}
+.container{
+    /* border:2px solid red; */
+    height:100vh;
+    
+}
+.form-template{
+    border:2px solid red;
+    /* height:80vh; */
+    width: 65%;
+    border-radius: 3%;
+    margin-left:300px;
+    margin-top: 10vh;
+    background-color: #eee;
+    opacity: 0.5;
+}
+
+
+.form-template form h4:nth-child(1){
+    margin:7px 12px;
+}
+.form-template form h4{
+    margin:0px 12px;
+}
+
+#credit{
+    display:none;
+}
+#credit button{
+    margin:40px 350px;
+}
+#paypal{
+    display:none;
+}
